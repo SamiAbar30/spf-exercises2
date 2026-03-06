@@ -1,6 +1,6 @@
 # Survey Data Analysis Toolkit
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.18883847)
 
 This repository contains the results for the Practical Exercises 1 and 2 of the "Scientific Paper of the Future" training.
 
@@ -74,4 +74,4 @@ graph TD
 
 To cite this software, please use the following metadata:
 
-Sami Abar. (2026). Survey Data Analysis Toolkit (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+Sami Abar. (2026). Survey Data Analysis Toolkit (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.18883847
