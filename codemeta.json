@@ -1,0 +1,17 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "https://github.com/SamiAbar30/spf-exercises",
+  "name": "SurveyDataAnalysis",
+  "description": "A repository for analyzing survey data on student financial support.",
+  "license": "https://spdx.org/licenses/MIT.html",
+  "version": "1.0.0",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Laura",
+      "familyName": "Researcher"
+    }
+  ],
+  "datePublished": "2026-03-06"
+}

@@ -1,0 +1,50 @@
+prefix ex <http://example.org/>
+prefix prov <http://www.w3.org/ns/prov#>
+
+agent(ex:Laura, [prov:type='prov:Person', prov:label="Laura"])
+agent(ex:Jack, [prov:type='prov:Person', prov:label="Jack"])
+agent(ex:Jill, [prov:type='prov:Person', prov:label="Jill"])
+agent(ex:Peter, [prov:type='prov:Person', prov:label="Peter"])
+agent(ex:Paula, [prov:type='prov:Person', prov:label="Paula"])
+agent(ex:Zack, [prov:type='prov:Person', prov:label="Zack"])
+
+entity(ex:SurveyV1, [prov:label="Survey v1"])
+entity(ex:SurveyV2, [prov:label="Survey v2"])
+entity(ex:Data1, [prov:label="Survey Data 1"])
+entity(ex:Data2, [prov:label="Survey Data 2"])
+entity(ex:AnalysisResults, [prov:label="Statistical Analysis Results"])
+entity(ex:Publication, [prov:label="Published Paper"])
+
+activity(ex:DesigningV1, [prov:label="Designing the survey"])
+activity(ex:Conducting1, [prov:label="Conducting the survey (Phase 1)"])
+activity(ex:Revising, [prov:label="Revising the survey"])
+activity(ex:Conducting2, [prov:label="Conducting the survey (Phase 2)"])
+activity(ex:Analyzing, [prov:label="Analyzing data"])
+activity(ex:Publishing, [prov:label="Writing and publishing paper"])
+
+wasGeneratedBy(ex:SurveyV1, ex:DesigningV1)
+wasAssociatedWith(ex:DesigningV1, ex:Laura)
+
+used(ex:Conducting1, ex:SurveyV1)
+wasGeneratedBy(ex:Data1, ex:Conducting1)
+wasAssociatedWith(ex:Conducting1, ex:Jack)
+wasAssociatedWith(ex:Conducting1, ex:Jill)
+
+wasDerivedFrom(ex:SurveyV2, ex:SurveyV1)
+wasGeneratedBy(ex:SurveyV2, ex:Revising)
+wasAssociatedWith(ex:Revising, ex:Laura)
+
+used(ex:Conducting2, ex:SurveyV2)
+wasGeneratedBy(ex:Data2, ex:Conducting2)
+wasAssociatedWith(ex:Conducting2, ex:Peter)
+wasAssociatedWith(ex:Conducting2, ex:Paula)
+
+used(ex:Analyzing, ex:Data1)
+used(ex:Analyzing, ex:Data2)
+wasGeneratedBy(ex:AnalysisResults, ex:Analyzing)
+wasAssociatedWith(ex:Analyzing, ex:Zack)
+
+used(ex:Publishing, ex:AnalysisResults)
+wasGeneratedBy(ex:Publication, ex:Publishing)
+wasAssociatedWith(ex:Publishing, ex:Zack)
+wasAssociatedWith(ex:Publishing, ex:Laura)

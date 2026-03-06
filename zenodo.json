@@ -1,0 +1,27 @@
+{
+  "title": "Survey Data Analysis Toolkit",
+  "description": "A repository for analyzing survey data on student financial support.",
+  "upload_type": "software",
+  "license": "MIT",
+  "version": "1.0.0",
+  "publication_date": "2026-03-06",
+  "creators": [
+    {
+      "name": "Abar, Sami",
+      "affiliation": ""
+    }
+  ],
+  "keywords": [
+    "survey data",
+    "student financial support",
+    "data analysis"
+  ],
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/SamiAbar30/spf-exercises",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
