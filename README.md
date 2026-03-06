@@ -1,6 +1,6 @@
 # Survey Data Analysis Toolkit
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.18883847)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18883847.svg)](https://doi.org/10.5281/zenodo.18883847)
 
 This repository contains the results for the Practical Exercises 1 and 2 of the "Scientific Paper of the Future" training.
 
